@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title> News App </title>
+</head>
+<body>
+	<div class="navContainer">
+	<img src="menu.png" id="menu">
+<nav>
+	
+	<ul>
+		<img src="close.png" id="close">
+		<li> <a href="#" onclick="changeTopic('tesla')"> Tesla </a></li>
+		<li> <a href="#" onclick="changeTopic('business')"> Business </a></li>
+		<li> <a href="#" onclick="changeTopic('games')"> Games </a></li>
+		<li> <a href="#" onclick="changeTopic('entertainment')"> Entertainment </a></li>
+		<li> <a href="#" onclick="changeTopic('apple')"> Apple </a></li>
+		<li> <a href="#" onclick="changeTopic('technology')"> Technology </a></li>
+		<li> <a href="#" onclick="changeTopic('health')"> Health </a></li>
+		<li> <a href="#" onclick="changeTopic('science')"> Science </a></li>
+	</ul>
+</nav>
+</div>
+<div class="spinnerAnimation">
+	<div id="loadingAnimation">
+	</div>
+</div>
+<div class="newsContainer">
+
+
+
+
+</div>
+
+<div class="buttons">
+		<button id="previous" onclick="controller(-1)"> Previous </button>
+		<button id="next" onclick="controller(1)"> Next </button>
+	</div>
+</body>
+<script src="script.js"></script>
+</html>
